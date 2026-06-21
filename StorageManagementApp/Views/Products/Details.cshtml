@@ -1,0 +1,29 @@
+﻿@model StorageManagement.ViewModels.ProductFormViewModel
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h1>Product Details</h1>
+
+<div class="card mb-3" style="max-width: 800px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="@Model.ImageUrl" class="img-fluid rounded-start p-3" alt="@Model.Name" />
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h3 class="card-title">@Model.Name</h3>
+                <p><strong>Manufacturer:</strong> @Model.Manufacturer</p>
+                <p><strong>Product Type:</strong> @Model.ProductType</p>
+                <p><strong>Supplier:</strong> @Model.Supplier</p>
+                <p><strong>Quantity:</strong> @Model.Quantity</p>
+                <p><strong>Price:</strong> @Model.Price.ToString("F2") лв.</p>
+                <p><strong>Description:</strong> @Model.Description</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+<a asp-action="Index" class="btn btn-secondary">Back</a>

@@ -1,0 +1,16 @@
+﻿@model StorageManagement.ViewModels.ProductFormViewModel
+
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<h1>Edit Product</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <partial name="_ProductFormPartial" model="Model" />
+
+    <button type="submit" class="btn btn-warning">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>

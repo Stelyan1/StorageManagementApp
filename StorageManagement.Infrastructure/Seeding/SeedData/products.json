@@ -1,0 +1,44 @@
+[
+  {
+    "id": "8f1b7f40-8c4a-4b51-8d62-9cbf5d7a2002",
+    "name": "ASUS ROG Strix B650E-F Gaming WiFi",
+    "imageUrl": "https://dlcdnwebimgs.asus.com/files/media/398D9060-E4B9-4A5E-B3AC-53FE4DC9144E/v1/img/kv/ROG-Strix-B650E-F-Gaming.png",
+    "supplier": "ASUS",
+    "manufacturer": "ASUS",
+    "productType": "Motherboard",
+    "description": "AMD AM5 gaming motherboard with DDR5 support, PCIe 5.0 and WiFi 6E.",
+    "quantity": 6,
+    "price": 279.99,
+    "createdOn": "2026-06-21T00:00:00Z",
+    "updatedOn": null
+  },
+  
+  {
+    "id": "8f1b7f40-8c4a-4b51-8d62-9cbf5d7a2004",
+    "name": "Intel Core i9-9900K",
+    "imageUrl": "https://m.media-amazon.com/images/I/71VnctbNogL.jpg",
+    "supplier": "Intel",
+    "manufacturer": "Intel",
+    "productType": "Processor",
+    "description": "9th Generation Intel Core i9 processor with 8 cores and 16 threads, up to 5.0GHz Turbo Boost.",
+    "quantity": 7,
+    "price": 349.99,
+    "createdOn": "2026-06-21T00:00:00Z",
+    "updatedOn": null
+  },
+
+  {
+    "id": "8f1b7f40-8c4a-4b51-8d62-9cbf5d7a2005",
+    "name": "NVIDIA GeForce RTX 4080 SUPER",
+    "imageUrl": "https://desktop.bg/system/images/444460/original/msi_geforce_rtx_4080_super_16gb_ventus_3x_oc.png",
+    "supplier": "NVIDIA",
+    "manufacturer": "NVIDIA",
+    "productType": "Video Card",
+    "description": "High-end NVIDIA graphics card based on Ada Lovelace architecture with ray tracing and DLSS 3 support.",
+    "quantity": 4,
+    "price": 999.99,
+    "createdOn": "2026-06-21T00:00:00Z",
+    "updatedOn": null
+  }
+
+]

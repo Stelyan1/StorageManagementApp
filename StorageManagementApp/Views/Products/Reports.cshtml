@@ -1,0 +1,47 @@
+﻿@model StorageManagement.ViewModels.ReportViewModel
+
+@{
+    ViewData["Title"] = "Reports";
+}
+
+<h1>Inventory Reports</h1>
+
+<div class="row mt-4">
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5>Total Quantity</h5>
+                <h2>@Model.TotalQuantity</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5>Total Value</h5>
+                <h2>@Model.TotalInventoryValue.ToString("F2") лв.</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5>Low Stock</h5>
+                <h2>@Model.LowStockCount</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5>All Articles</h5>
+                <h2>@Model.AllArticlesCount</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary mt-4">Back to Products</a>
