@@ -23,6 +23,7 @@ namespace StorageManagementApp
 
             builder.Services.AddScoped<IProductRepository, ProductRepository>();
             builder.Services.AddScoped<IProductService, ProductService>();
+            builder.Services.AddScoped<IProductServiceAPI, ProductServiceAPI>();
 
             var app = builder.Build();
 

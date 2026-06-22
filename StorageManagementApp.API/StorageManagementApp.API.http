@@ -1,0 +1,6 @@
+@StorageManagementApp.API_HostAddress = http://localhost:5167
+
+GET {{StorageManagementApp.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
